@@ -1,0 +1,23 @@
+{
+  "name": "pure-update-decorator",
+  "version": "1.0.0",
+  "description": "react 渲染性能优化高阶组件",
+  "main": "pure-update-decorator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webliving/pure-update-decorator.git"
+  },
+  "keywords": [
+    "react",
+    "render"
+  ],
+  "author": "webliving",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webliving/pure-update-decorator/issues"
+  },
+  "homepage": "https://github.com/webliving/pure-update-decorator#readme"
+}
