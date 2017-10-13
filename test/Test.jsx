@@ -2,7 +2,6 @@ import React from 'react';
 import {connect} from 'react-redux';
 
 import {BasicButton, BasicPureButton} from './BasicButton.jsx';
-// import PureUpdateButton from './PureUpdateButton.jsx';
 
 class Test extends React.Component {
   constructor(props) {
