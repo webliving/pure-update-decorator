@@ -1,6 +1,6 @@
 {
   "name": "pure-update-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react 渲染性能优化高阶组件",
   "main": "build/index.js",
   "scripts": {
