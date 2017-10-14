@@ -1,7 +1,7 @@
 language: node_js
-repo_token: viXkp1rCNb13LJDVjVxzo4jhUhZegtwAT
 node_js:
 - '6'
 install: npm install
 script: npm run test-babel
-after_script: "cat ./coverage/lcov.info | coveralls"
+after_script:
+ - npm run coveralls
