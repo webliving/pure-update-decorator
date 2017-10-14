@@ -1,7 +1,7 @@
 {
   "name": "pure-update-decorator",
   "version": "1.0.1",
-  "description": "react 渲染性能优化高阶组件",
+  "description": "react 渲染性能优化高阶组件 ",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
