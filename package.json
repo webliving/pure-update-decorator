@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-babel": "./node_modules/.bin/babel-node ./node_modules/.bin/babel-istanbul cover --report lcov --report html ./node_modules/.bin/_mocha",
-    "posttest-babel":"cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
     "build": "babel ./src --ignore=*.spec.js --out-dir ./build ",
     "release": "standard-version",
     "release-next": "standard-version --prerelease next",
     "release-major": "standard-version --release-as major",
     "release-minor": "standard-version --release-as minor",
     "prerelease-patch": "npm run build",
-    "release-patch": "standard-version --release-as patch"
+    "release-patch": "standard-version --release-as patch",
+    "coveralls":"cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
