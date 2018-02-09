@@ -1,6 +1,6 @@
 {
   "name": "pure-update-decorator",
-  "version": "1.0.1",
+  "version": "1.2.4",
   "description": "react 渲染性能优化高阶组件 ",
   "main": "build/index.js",
   "scripts": {
@@ -15,7 +15,8 @@
     "release-minor": "standard-version --release-as minor",
     "prerelease-patch": "npm run build",
     "release-patch": "standard-version --release-as patch",
-    "coveralls":"cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "coveralls":"cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "publish230":"npm publish --registry http://172.31.3.230:4873"
   },
   "repository": {
     "type": "git",
